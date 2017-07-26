@@ -1,0 +1,79 @@
+
+/* CSS Document */
+
+*{
+	font-family:'Helvetica', 'Arial', san serif;
+}
+
+#header {
+		text-align: center;
+		padding: 4em 0 0em 0;
+	}
+
+#header .avatar {
+	border-radius: 100%;
+	display: inline-block;
+	border: solid 1px rgba(255, 255, 255, 0.25);
+}
+
+#header .avatar img {
+	border-radius: 100%;
+	display: block;
+	width: 10em;
+}
+
+h1{
+	color: Pink;
+	font-size: 40px;
+	background-color: grey;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3{
+	color: rgb(185, 66, 86);
+	font-size: 20px;
+	font-style: italic;
+}
+
+body {
+    background-image: url("/Users/vera/Desktop/lab 1/images/bg.jpg");
+    background-color: #000;
+    background-size: cover;
+	background-position: top center;
+	color: grey;
+	font-size: 20px;
+	word-spacing: 0.3em;
+	line-height: 1.5em;
+}
+
+a{
+	color: Pink;
+	text-decoration: none;
+}
+
+
+img{
+	border-radius: 100%;
+	position: relative;
+	max-width: 80%;
+
+}
+
+a img {
+	display: block;
+	width: 100%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+
+.boxes{
+	width:1000px;
+	heigit:70px;
+	border: 1px solid blue;
+	margin: auto;
+}
+
