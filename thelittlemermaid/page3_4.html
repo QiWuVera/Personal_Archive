@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Little Mermaid</title>
+	<link rel="stylesheet" type="text/css" href="css/pages.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/video.js/5.18.4/video-js.min.css">
+</head>
+<body>
+<script type="text/javascript" src="http://cdn.bootcss.com/video.js/5.18.4/video.min.js"></script>
+	<div class="main">
+		<h1><a href="index_3.html">The Little Mermaid</a></h1>
+		<h2>Trade with the sea witch</h2>
+		<h3><a href="index_3.html">Quit</a></h3>
+	</div>
+	<div class="content">
+		<p>She had always been silent and thoughtful, and now she was more so than ever. Many an evening and morning did she rise to the place where she had left the prince. She saw the fruits in the garden ripen till they were gathered, but she never saw the prince, and therefore she returned home, always more sorrowful than before. It was her only comfort to sit in her own little garden, and fling her arm round the beautiful marble statue, which was like the prince.</p>
+	    <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered juzhong" controls preload="none" width="710" height="400"
+	      poster="http://video-js.zencoder.com/oceans-clip.png"
+	      data-setup="{}">
+	        <source src="video/sculpture.mp4" type='video/mp4' />
+	    </video>
+		<p>She would swim much nearer the shore than any of the others ventured to do; indeed once she went quite up the narrow channel under the marble balcony, which threw a broad shadow on the water. Here she would sit and watch the young prince, who thought himself quite alone in the bright moonlight. She saw him many times of an evening sailing in a pleasant boat, with music playing and flags waving. She peeped out from among the green rushes, and if the wind caught her long silvery-white veil, those who saw it believed it to be a swan, spreading out its wings. On many a night, too, when the fishermen, with their torches, were out at sea, she heard them relate so many good things about the doings of the young prince, that she was glad she had saved his life when he had been tossed about half-dead on the waves. And she remembered that his head had rested on her bosom, and how heartily she had kissed him; but he knew nothing of all this, and could not even dream of her. She grew more and more fond of human beings, and wished more and more to be able to wander about with those whose world seemed to be so much larger than her own.</p>
+		<h5><a href="page3_5.html">Next</a></h5>
+		<h2><a href="page3_3.html">Fall in love with the prince</a></h2>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+    var myPlayer = videojs('example_video_1');
+    videojs("example_video_1").ready(function(){
+        var myPlayer = this;
+        myPlayer.play();
+    });
+</script>

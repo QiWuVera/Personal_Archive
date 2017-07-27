@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+
+}
+.main{
+	width:100%;
+	height: auto;
+	margin: 50px auto 0 auto;
+}
+.main h1{
+	text-align: center;
+	font-family: myFirstFont;
+	font-size: 5em;
+}
+.main h1 a{
+	color: #226591;
+}
+.content{
+	width: 100%;
+	height: auto;
+}
+.content_box{
+	width: 740px;
+	margin: 50px auto 0 auto;
+}
+.content_box p{
+	font-family: mySecondFont;
+	color:#0B4A73;
+	font-size: 1.7em;
+	line-height: 45px;
+}
+@font-face{
+font-family: myFirstFont;
+src: url("../font/Alice_in_Wonderland_3.ttf"); 
+}
+@font-face{
+font-family: mySecondFont;
+src: url("../font/Luminari-Regular.ttf"); 
+}
+
+
+.bg{
+	width: 100%;
+	height: 750px;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+}
+.bg_box ul{
+	padding-top: 100px;
+}
+.bg_box ul li{
+	font-size: 3em;
+	font-family: myThirdFont;
+}
+.bg_box ul li.li1{
+	font-size: 3em;
+	text-align: center;
+	color: #9dabb4;
+}
+
+.bg_box ul li.li7{
+	font-size: 3em;
+	text-align: center;
+}
+.bg_box ul li.li7 a{
+	color: #77B6DF;
+}
+
+.bg_box ul li.li2{
+	font-size: 3em;
+	text-align: left;
+	line-height: 110px;
+	text-indent: 9em;
+	color: #9dabb4;
+}
+
+.bg_box ul li.li8{
+	font-size: 3em;
+	text-align: left;
+	line-height: 110px;
+	text-indent: 9em;
+}
+.bg_box ul li.li8 a{
+	color: #FFF;
+}
+
+.bg_box ul li.li3{
+	font-size: 3em;
+	text-align: left;
+	line-height: 110px;
+	text-indent: 5em;
+	color: #9dabb4;
+}
+
+.bg_box ul li.li9{
+	font-size: 3em;
+	text-align: left;
+	line-height: 110px;
+	text-indent: 5em;
+}
+.bg_box ul li.li9 a{
+	color: #FFF;
+}
+
+.bg_box ul li.li4{
+	font-size: 3em;
+	text-align: left;
+	line-height: 100px;
+	text-indent: 2em;
+	color: #9dabb4;
+}
+
+.bg_box ul li.li10{
+	font-size: 3em;
+	text-align: left;
+	line-height: 100px;
+	text-indent: 2em;
+}
+
+.bg_box ul li.li10 a{
+	color: #FFF;
+}
+
+.bg_box ul li.li5{
+	font-size: 3em;
+	text-align: left;
+	line-height: 95px;
+	text-indent: 1em;
+	color: #9dabb4;
+}
+
+.bg_box ul li.li11{
+	font-size: 3em;
+	text-align: left;
+	line-height: 95px;
+	text-indent: 1em;
+}
+
+.bg_box ul li.li11 a{
+	color: #FFF;
+}
+
+.bg_box ul li.li6{
+	font-size: 3em;
+	text-align: left;
+	line-height: 75px;
+	text-indent:0.4em;
+}
+.bg_box ul li.li6 a{
+	color: #FFF;
+}
+
+@font-face{
+font-family: myThirdFont;
+src: url("../font/Alice_in_Wonderland_3.ttf"); 
+}
