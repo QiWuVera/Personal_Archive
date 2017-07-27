@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Little Mermaid</title>
+	<link rel="stylesheet" type="text/css" href="css/pages.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/video.js/5.18.4/video-js.min.css">
+</head>
+<body>
+<script type="text/javascript" src="http://cdn.bootcss.com/video.js/5.18.4/video.min.js"></script>
+	<div class="main">
+		<h1><a href="index_5.html">The Little Mermaid</a></h1>
+		<h2><a href="index_6.html">The end</a></h2>
+		<h3><a href="index_5.html">Quit</a></h3>
+	</div>
+	<div class="content">
+		<p>The next morning the ship sailed into the harbor of a beautiful town belonging to the king whom the prince was going to visit. The church bells were ringing, and from the high towers sounded a flourish of trumpets; and soldiers, with flying colors and glittering bayonets, lined the rocks through which they passed. Every day was a festival; balls and entertainments followed one another. But the princess had not yet appeared. People said that she was being brought up and educated in a religious house, where she was learning every royal virtue. At last she came. Then the little mermaid, who was very anxious to see whether she was really beautiful, was obliged to acknowledge that she had never seen a more perfect vision of beauty. Her skin was delicately fair, and beneath her long dark eye-lashes her laughing blue eyes shone with truth and purity.</p>
+		</br>
+		<p> “It was you,” said the prince, “who saved my life when I lay dead on the beach,” and he folded his blushing bride in his arms. “Oh, I am too happy,” said he to the little mermaid, “my fondest hopes are all fulfilled. You will rejoice at my happiness; for your devotion to me is great and sincere.” The little mermaid kissed his hand, and felt as if her heart were already broken. His wedding morning would bring death to her, and she would change into the foam of the sea.</p>
+	    <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered juzhong" controls preload="none" width="710" height="400"
+	      poster="http://video-js.zencoder.com/oceans-clip.png"
+	      data-setup="{}">
+	        <source src="video/marry.mp4" type='video/mp4' />
+	    </video>
+		<h2>Walking with legs</h2>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+    var myPlayer = videojs('example_video_1');
+    videojs("example_video_1").ready(function(){
+        var myPlayer = this;
+        myPlayer.play();
+    });
+</script>
